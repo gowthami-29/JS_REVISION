@@ -24,7 +24,7 @@ function BankAccount(){
         getBalance(){
             return Balance
         },
-        getTransactionHistoory(){
+        getTransactionHistory(){
             return [...Transaction]
         }
 
