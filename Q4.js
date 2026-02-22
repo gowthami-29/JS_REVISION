@@ -1,5 +1,5 @@
-function wait(s){
-    return new Promise(resolve=>setTimeout(resolve,s))
+function wait(seq){
+    return new Promise(resolve=>setTimeout(resolve,seq))
 
 }
 async function runSequential(tasks,delay){
